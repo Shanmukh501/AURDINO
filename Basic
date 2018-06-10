@@ -1,0 +1,11 @@
+Void setup()
+{
+PinMode(13,OUTPUT);
+}
+Void Loop()
+{
+Digital.Write(13,HIGH);
+delay(1000);
+Digital.Write(13,LOW);
+Delay(1000);
+}
